@@ -8,20 +8,21 @@
     <link rel="stylesheet" href="/personal Portfolio/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
     <!--Header designing-->
     <header class="header">
-        <a href="#"class="logo">shubhi</a>
-        <div class="menu" id="menu-icon"><i class="fa-solid fa-bars"></i></div>
+        <a href="#"class="logo">Portfolio</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
 
         <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Education</a>
-            <a href="#">Skills</a>
-            <a href="#">Contact</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
@@ -32,18 +33,254 @@
             <div class="animated-text">
                 <h3>Frontend Developer</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, illo animi quia placeat molestias quod odit voluptatum itaque quas aliquam nihil deleniti ea pariatur molestiae earum ut?</p>
+            <p>I am highly motivated, quick to adapt, and always eager to learn new technologies. I am now actively looking for internship or entry-level opportunities where I can collaborate with experienced developers, contribute to real-world projects, and grow in a professional environment.</p>
 
-            <div class="btn-box">
+            <div class="btn-box btns">
                 <a href="#" class="btn">Hire me</a>
-                <a href="#" class="btn">Let's contact</a>
+                <a href="#" class="btn" id="contactBtn">Let's contact</a>
             </div>
         </div>
         <div class="social-media">
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/shubhi-gupta-6591b4329/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/shubhigupta-dev"><i class="fa-brands fa-github"></i></a>
         </div>
     </section>
+
+    <!--about section designing-->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+
+        <div class="about-img">
+            <img src="/personal Portfolio/images/WhatsApp Image 2025-08-03 at 2.49.39 PM.jpeg" alt="photo">
+        </div>
+
+        <div class="about-content">
+            <h3>Frontend Developer</h3>
+            <p>I’m a passionate Frontend Developer and a final-year student with a strong foundation in C++ also. I started my web development journey by experimenting with HTML, CSS, javaScript, and gradually expanded my skills into modern technologies like React, Bootstrap, and Git/GitHub.I enjoy turning designs into interactive and responsive web pages while continuously learning and experimenting with new tools and techniques.</p>
+        </div>
+
+    </section>
+
+    <!--education section designing-->
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span></h2>
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="fa-regular fa-calendar"></i>2022 - 2026</div>
+                            <h3>Bachelor of Technology in Electronics & Communication Engineering</h3>
+                            <p>Madhav Institute of Technology & Science - Deemed University, Gwalior, MP </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="fa-regular fa-calendar"></i>2021 - 2022</div>
+                            <h3>Higher Secondary School (XII)</h3>
+                            <p>Guidence Public Higher Secondary School, Indergarh, Datia, MP</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="fa-regular fa-calendar"></i>2019 - 2020</div>
+                            <h3>Secondary School (X)</h3>
+                            <p>Shree Kherapati Sarkar Public School, Indergarh, Datia, MP</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--skills section designing-->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Languages</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>C++ <span>90%</span></h3>
+                            <div class="bar"><span> </span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CSS <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>JavaScript <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Python <span>50%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="skills-column">
+                <h3 class="title">IT Constructs</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Data Structure & Algorithm <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>OOPS <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>DBMS <span>40%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Computer Network <span>50%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Operating System <span>0%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="skills-column">
+                <h3 class="title">Frameworks</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Bootstrap <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>React JS <span>2%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3> <span></span></h3>
+                        </div>
+
+                        <div class="progress">
+                            <h3><span></span></h3>
+                        </div>
+                        <div class="progress">
+                            <h3><span></span></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="skills-column">
+                <h3 class="title">Development Tools</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Visual Studio Code <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Git <span>50%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Github <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3> <span></span></h3>
+                        </div>
+                        <div class="progress">
+                            <h3> <span></span></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact section designing-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#" id="myForm">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+
+                <div class="input-field">
+                    <input type="text" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="Mobile number" required>
+                    <span class="focus"></span>
+                </div>
+
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="9" placeholder="Your Message" required></textarea>
+                <span class="focus"></span>
+            </div>
+
+            <div class="btn-box">
+                <button type="submit" class="btn" id="submitBtn">Submit</button>
+            </div>
+
+        </form>
+    </section>
+
+    <!--footer designing-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Shubhi | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class="fa-solid fa-up-long"></i></i></a>
+        </div>
+    </footer>
+
+    <script src="/personal Portfolio/js/script.js"></script>
 </body>
 
 </html>
